@@ -1,5 +1,6 @@
 body {
     font-family: Roboto, Arial;
+    
 }
 
 .image-thumbnail {
@@ -7,9 +8,7 @@ body {
     margin-bottom: 10px;
 }
 
-.search-bar {
-    display: block;
-}
+
 
 .vid-preview {
     vertical-align: top;

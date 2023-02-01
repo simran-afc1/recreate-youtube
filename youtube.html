@@ -13,14 +13,38 @@
 
     <title>Youtube Clone</title>
     <link rel="stylesheet" href="youtube.css">
+    <link rel="stylesheet" href="header.css">
 </head>
 
 <body>
-<!--HEADER start-->
-    <div>
-        <input class="search-bar" type="text" placeholder="Search">
+    <!--HEADER start [separate css file for header]-->
+    <div class="header"> <!--make this header flex so that I can fit in youtube logo, search bar and other buttons on top-->
+        <!--left section youtube logo-->
+        <div class="header-left">
+            <img src="./image/header icons/hamburger-menu.svg" alt="">
+            <img src="./image/header icons/youtube-logo.svg" alt="">
+        </div>
+    <!--m id section youtube search-->
+        <div class="header-mid">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-icon">
+                <img  src="./image/header icons/search.svg" alt="">
+            </button>
+            <button class="voice-search">
+                <img  src="./image/header icons/voice-search-icon.svg" alt="">
+            </button>
+            
+        </div>
+    <!--right section-->
+        <div class="header-right">
+            <img class="upload-icon" src="./image/header icons/upload.svg" alt="">
+            <img class="utube-apps-icon" src="./image/header icons/youtube-apps.svg" alt="">
+            <img class="notif-icon" src="./image/header icons/notifications.svg" alt="">
+            <img class="cur-user-icon" src="./image/header icons/s.png" alt="">
+        </div>
+
     </div>
-<!--HEADER end-->    
+    <!--HEADER end-->
     <div class="video-grid">
 
         <!--  Talking tech   -->
