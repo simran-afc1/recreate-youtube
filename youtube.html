@@ -14,43 +14,52 @@
     <title>Youtube Clone</title>
     <link rel="stylesheet" href="youtube.css">
     <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="sidebar.css">
 </head>
 
-<body>
+<body style="padding-bottom: 1000px;">
     <!--HEADER start [separate css file for header]-->
-    <div class="header"> <!--make this header flex so that I can fit in youtube logo, search bar and other buttons on top-->
+    <div class="header">
+        <!--make this header flex so that I can fit in youtube logo, search bar and other buttons on top-->
         <!--left section youtube logo-->
         <div class="header-left">
             <img src="./image/header icons/hamburger-menu.svg" alt="">
             <img src="./image/header icons/youtube-logo.svg" alt="">
         </div>
-    <!--m id section youtube search-->
+        <!--m id section youtube search-->
         <div class="header-mid">
             <input class="search-bar" type="text" placeholder="Search">
             <button class="search-icon">
-                <img  src="./image/header icons/search.svg" alt="">
+                <img src="./image/header icons/search.svg" alt="">
             </button>
             <button class="voice-search">
-                <img  src="./image/header icons/voice-search-icon.svg" alt="">
+                <img src="./image/header icons/voice-search-icon.svg" alt="">
             </button>
-            
+
         </div>
-    <!--right section-->
+        <!--right section-->
         <div class="header-right">
             <img class="upload-icon" src="./image/header icons/upload.svg" alt="">
             <img class="utube-apps-icon" src="./image/header icons/youtube-apps.svg" alt="">
             <img class="notif-icon" src="./image/header icons/notifications.svg" alt="">
             <img class="cur-user-icon" src="./image/header icons/s.png" alt="">
         </div>
-
     </div>
     <!--HEADER end-->
+
+<!--Sidebar-->
+    <div class="sidebar">
+        sidebar
+    </div>
+
+<!--videos grid-->
     <div class="video-grid">
 
         <!--  Talking tech   -->
         <div class="vid-preview">
-            <div>
+            <div style="position: relative;">
                 <img class="image-thumbnail" src="./image/thumbnail-1.webp">
+                <div class="video-time">14:21</div>
             </div>
 
             <div class="video-info-grid">
@@ -75,8 +84,9 @@
 
         <!--  try not to laugh   -->
         <div class="vid-preview">
-            <div>
+            <div style="position: relative;">
                 <img class="image-thumbnail" src="./image/thumbnail-2.webp">
+                <div class="video-time">10:20</div>
             </div>
 
             <div class="video-info-grid">
@@ -101,8 +111,9 @@
 
         <!--  Kapil Sharma   -->
         <div class="vid-preview">
-            <div>
+            <div style="position: relative;">
                 <img class="image-thumbnail" src="./image/thumbnail-3.webp">
+                <div class="video-time">54:28</div>
             </div>
 
             <div class="video-info-grid">
@@ -126,8 +137,9 @@
 
         <!--  Navi-licious   -->
         <div class="vid-preview">
-            <div>
+            <div style="position: relative;">
                 <img class="image-thumbnail" src="./image/thumbnail-4.webp">
+                <div class="video-time">08:55</div>
             </div>
 
             <div class="video-info-grid">
@@ -152,8 +164,9 @@
 
         <!--  self taught dev   -->
         <div class="vid-preview">
-            <div>
+            <div style="position: relative;">
                 <img class="image-thumbnail" src="./image/thumbnail-5.webp">
+                <div class="video-time">20:55</div>
             </div>
 
             <div class="video-info-grid">
@@ -178,9 +191,12 @@
 
         <!--  standup   -->
         <div class="vid-preview">
-            <div>
+            <div style="position: relative;">
                 <img class="image-thumbnail" src="./image/thumbnail-6.webp">
+                <div class="video-time">14:20</div>
             </div>
+
+            
 
             <div class="video-info-grid">
                 <div class="channel-img">
